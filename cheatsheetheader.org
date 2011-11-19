@@ -1,0 +1,58 @@
+#+OPTIONS: toc:nil author:nil
+#+date: 
+
+#+LATEX_HEADER: \usepackage{amssymb,amsmath,amsthm,amsfonts}
+#+LATEX_HEADER: \usepackage{multicol}
+#+LATEX_HEADER: \usepackage{calc}
+#+LATEX_HEADER: \usepackage{ifthen}
+#+LATEX_HEADER: \usepackage{enumitem}
+#+LATEX_HEADER: \usepackage[landscape]{geometry}
+#+LATEX_HEADER: 
+#+LATEX_HEADER: \ifthenelse{\lengthtest { \paperwidth = 11in}}
+#+LATEX_HEADER: 	{ \geometry{top=.5in,left=.5in,right=.5in,bottom=.5in} }
+#+LATEX_HEADER: 	{\ifthenelse{ \lengthtest{ \paperwidth = 297mm}}
+#+LATEX_HEADER: 		{\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
+#+LATEX_HEADER: 		{\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
+#+LATEX_HEADER: 	}
+#+LATEX_HEADER: \pagestyle{empty}
+#+LATEX_HEADER: \makeatletter
+#+LATEX_HEADER: \renewcommand{\section}{\@startsection{section}{1}{0mm}%
+#+LATEX_HEADER:                                 {-1ex plus -.5ex minus -.2ex}%
+#+LATEX_HEADER:                                 {0.5ex plus .2ex}%x
+#+LATEX_HEADER:                                 {\normalfont\small\bfseries}}
+#+LATEX_HEADER: \renewcommand{\subsection}{\@startsection{subsection}{2}{0mm}%
+#+LATEX_HEADER:                                 {-1explus -.5ex minus -.2ex}%
+#+LATEX_HEADER:                                 {0.5ex plus .2ex}%
+#+LATEX_HEADER:                                 {\normalfont\footnotesize\bfseries\centering}}
+#+LATEX_HEADER: \renewcommand{\subsubsection}{\@startsection{subsubsection}{3}{0mm}%
+#+LATEX_HEADER:                                 {-1ex plus -.5ex minus -.2ex}%
+#+LATEX_HEADER:                                 {1ex plus .2ex}%
+#+LATEX_HEADER:                                 {\normalfont\tiny\bfseries}}
+#+LATEX_HEADER: \renewcommand{\@maketitle}{
+#+LATEX_HEADER: \newpage
+#+LATEX_HEADER:  \null
+#+LATEX_HEADER:  \vskip -2cm%
+#+LATEX_HEADER:  \begin{center}%
+#+LATEX_HEADER:   {\Large\bfseries \@title \par}%
+#+LATEX_HEADER:  \end{center}%
+#+LATEX_HEADER:  \par}
+#+LATEX_HEADER: \makeatother
+#+LATEX_HEADER: \setcounter{secnumdepth}{0}
+#+LATEX_HEADER: \setlength{\parindent}{0pt}
+#+LATEX_HEADER: \setlength{\parskip}{0pt plus 0.5ex}
+#+LATEX_HEADER: \lstset{%
+#+LATEX_HEADER:     basicstyle=\ttfamily\tiny,
+#+LATEX_HEADER:     commentstyle=\itshape\ttfamily\tiny,
+#+LATEX_HEADER:     showspaces=false,
+#+LATEX_HEADER:     showstringspaces=false,
+#+LATEX_HEADER:     breaklines=true,
+#+LATEX_HEADER:     breakautoindent=true,
+#+LATEX_HEADER:   }
+#+LATEX_HEADER: \usepackage{enumitem}
+#+LATEX_HEADER: \setlist{leftmargin=*,itemsep=-0.3em}
+
+#+latex: \setlength{\premulticols}{1pt}
+#+latex: \setlength{\postmulticols}{1pt}
+#+latex: \setlength{\multicolsep}{1pt}
+#+latex: \setlength{\columnsep}{2pt}
+
