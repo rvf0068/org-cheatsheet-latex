@@ -5,22 +5,20 @@
 #+LATEX_HEADER: \usepackage{multicol}
 #+LATEX_HEADER: \usepackage{calc}
 #+LATEX_HEADER: \usepackage{enumitem}
+#+LATEX_HEADER: \usepackage[compact]{titlesec}
 #+LATEX_HEADER: \usepackage[landscape,top=0.2cm,bottom=1cm,left=1cm,right=1cm]{geometry}
 #+LATEX_HEADER: 
+#+latex_header: \titleformat{\section}[frame]
+#+latex_header: {\normalfont\sffamily}
+#+latex_header: {\thesection}{.1em}{\small\bfseries\filcenter}
+#+latex_header: \titleformat{\subsection}[block]
+#+latex_header: {\normalfont\sffamily}
+#+latex_header: {\thesection}{0em}{\scriptsize\bfseries\filcenter}
+#+latex_header: \titleformat{\subsubsection}[block]
+#+latex_header: {\normalfont\sffamily}
+#+latex_header: {\thesection}{0em}{\tiny\bfseries}
 #+LATEX_HEADER: \pagestyle{empty}
 #+LATEX_HEADER: \makeatletter
-#+LATEX_HEADER: \renewcommand{\section}{\@startsection{section}{1}{0mm}%
-#+LATEX_HEADER:                                 {-1ex plus -.5ex minus -.2ex}%
-#+LATEX_HEADER:                                 {0.5ex plus .2ex}%x
-#+LATEX_HEADER:                                 {\normalfont\small\bfseries}}
-#+LATEX_HEADER: \renewcommand{\subsection}{\@startsection{subsection}{2}{0mm}%
-#+LATEX_HEADER:                                 {-1explus -.5ex minus -.2ex}%
-#+LATEX_HEADER:                                 {0.5ex plus .2ex}%
-#+LATEX_HEADER:                                 {\normalfont\footnotesize\bfseries\centering}}
-#+LATEX_HEADER: \renewcommand{\subsubsection}{\@startsection{subsubsection}{3}{0mm}%
-#+LATEX_HEADER:                                 {-1ex plus -.5ex minus -.2ex}%
-#+LATEX_HEADER:                                 {1ex plus .2ex}%
-#+LATEX_HEADER:                                 {\normalfont\tiny\bfseries}}
 #+LATEX_HEADER: \renewcommand{\@maketitle}{
 #+LATEX_HEADER: \newpage
 #+LATEX_HEADER:  \null
