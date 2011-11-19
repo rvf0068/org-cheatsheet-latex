@@ -4,16 +4,9 @@
 #+LATEX_HEADER: \usepackage{amssymb,amsmath,amsthm,amsfonts}
 #+LATEX_HEADER: \usepackage{multicol}
 #+LATEX_HEADER: \usepackage{calc}
-#+LATEX_HEADER: \usepackage{ifthen}
 #+LATEX_HEADER: \usepackage{enumitem}
-#+LATEX_HEADER: \usepackage[landscape]{geometry}
+#+LATEX_HEADER: \usepackage[landscape,top=0.2cm,bottom=1cm,left=1cm,right=1cm]{geometry}
 #+LATEX_HEADER: 
-#+LATEX_HEADER: \ifthenelse{\lengthtest { \paperwidth = 11in}}
-#+LATEX_HEADER: 	{ \geometry{top=.5in,left=.5in,right=.5in,bottom=.5in} }
-#+LATEX_HEADER: 	{\ifthenelse{ \lengthtest{ \paperwidth = 297mm}}
-#+LATEX_HEADER: 		{\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
-#+LATEX_HEADER: 		{\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
-#+LATEX_HEADER: 	}
 #+LATEX_HEADER: \pagestyle{empty}
 #+LATEX_HEADER: \makeatletter
 #+LATEX_HEADER: \renewcommand{\section}{\@startsection{section}{1}{0mm}%
@@ -48,7 +41,6 @@
 #+LATEX_HEADER:     breaklines=true,
 #+LATEX_HEADER:     breakautoindent=true,
 #+LATEX_HEADER:   }
-#+LATEX_HEADER: \usepackage{enumitem}
 #+LATEX_HEADER: \setlist{leftmargin=*,itemsep=-0.3em}
 
 #+latex: \setlength{\premulticols}{1pt}
