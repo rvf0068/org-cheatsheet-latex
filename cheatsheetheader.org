@@ -1,12 +1,10 @@
 #+OPTIONS: toc:nil author:nil
 #+date: 
 
-#+LATEX_HEADER: \usepackage{amssymb,amsmath,amsthm,amsfonts}
 #+LATEX_HEADER: \usepackage{multicol}
-#+LATEX_HEADER: \usepackage{calc}
 #+LATEX_HEADER: \usepackage{enumitem}
 #+LATEX_HEADER: \usepackage[compact]{titlesec}
-#+LATEX_HEADER: \usepackage[landscape,top=0.2cm,bottom=1cm,left=1cm,right=1cm]{geometry}
+#+LATEX_HEADER: \usepackage[landscape,margin=1cm]{geometry}
 #+LATEX_HEADER: 
 #+latex_header: \titleformat{\section}[frame]
 #+latex_header: {\normalfont\sffamily}
@@ -21,9 +19,7 @@
 #+LATEX_HEADER: \makeatletter
 #+LATEX_HEADER: \renewcommand{\@maketitle}{
 #+LATEX_HEADER: \newpage
-#+LATEX_HEADER:  \null
-#+LATEX_HEADER:  \vskip -2cm%
-#+LATEX_HEADER:  \begin{center}%
+#+LATEX_HEADER: \begin{center}%
 #+LATEX_HEADER:   {\Large\bfseries \@title \par}%
 #+LATEX_HEADER:  \end{center}%
 #+LATEX_HEADER:  \par}
