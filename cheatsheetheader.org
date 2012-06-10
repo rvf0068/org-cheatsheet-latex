@@ -1,11 +1,11 @@
-#+OPTIONS: toc:nil author:nil
+#+options: toc:nil author:nil
 #+date: 
 
-#+LATEX_HEADER: \usepackage{multicol}
-#+LATEX_HEADER: \usepackage{enumitem}
-#+LATEX_HEADER: \usepackage[compact]{titlesec}
-#+LATEX_HEADER: \usepackage[landscape,margin=1cm]{geometry}
-#+LATEX_HEADER: 
+#+latex_header: \usepackage{multicol}
+#+latex_header: \usepackage{enumitem}
+#+latex_header: \usepackage[compact]{titlesec}
+#+latex_header: \usepackage[landscape,margin=1cm]{geometry}
+#+latex_header: 
 #+latex_header: \titleformat{\section}[frame]
 #+latex_header: {\normalfont\sffamily}
 #+latex_header: {\thesection}{.1em}{\small\bfseries\filcenter}
@@ -15,27 +15,27 @@
 #+latex_header: \titleformat{\subsubsection}[block]
 #+latex_header: {\normalfont\sffamily}
 #+latex_header: {\thesection}{0em}{\tiny\bfseries}
-#+LATEX_HEADER: \pagestyle{empty}
-#+LATEX_HEADER: \makeatletter
-#+LATEX_HEADER: \renewcommand{\@maketitle}{
-#+LATEX_HEADER: \newpage
-#+LATEX_HEADER: \begin{center}%
-#+LATEX_HEADER:   {\Large\bfseries \@title \par}%
-#+LATEX_HEADER:  \end{center}%
-#+LATEX_HEADER:  \par}
-#+LATEX_HEADER: \makeatother
-#+LATEX_HEADER: \setcounter{secnumdepth}{0}
-#+LATEX_HEADER: \setlength{\parindent}{0pt}
-#+LATEX_HEADER: \setlength{\parskip}{0pt plus 0.5ex}
-#+LATEX_HEADER: \lstset{%
-#+LATEX_HEADER:     basicstyle=\ttfamily\tiny,
-#+LATEX_HEADER:     commentstyle=\itshape\ttfamily\tiny,
-#+LATEX_HEADER:     showspaces=false,
-#+LATEX_HEADER:     showstringspaces=false,
-#+LATEX_HEADER:     breaklines=true,
-#+LATEX_HEADER:     breakautoindent=true,
-#+LATEX_HEADER:   }
-#+LATEX_HEADER: \setlist{leftmargin=*,itemsep=-0.3em}
+#+latex_header: \pagestyle{empty}
+#+latex_header: \makeatletter
+#+latex_header: \renewcommand{\@maketitle}{
+#+latex_header: \newpage
+#+latex_header: \begin{center}%
+#+latex_header:   {\Large\bfseries \@title \par}%
+#+latex_header:  \end{center}%
+#+latex_header:  \par}
+#+latex_header: \makeatother
+#+latex_header: \setcounter{secnumdepth}{0}
+#+latex_header: \setlength{\parindent}{0pt}
+#+latex_header: \setlength{\parskip}{0pt plus 0.5ex}
+#+latex_header: \lstset{%
+#+latex_header:     basicstyle=\ttfamily\tiny,
+#+latex_header:     commentstyle=\itshape\ttfamily\tiny,
+#+latex_header:     showspaces=false,
+#+latex_header:     showstringspaces=false,
+#+latex_header:     breaklines=true,
+#+latex_header:     breakautoindent=true,
+#+latex_header:   }
+#+latex_header: \setlist{leftmargin=*,itemsep=-0.3em}
 
 #+latex: \setlength{\premulticols}{1pt}
 #+latex: \setlength{\postmulticols}{1pt}
