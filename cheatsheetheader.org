@@ -42,3 +42,4 @@
 #+latex: \setlength{\multicolsep}{1pt}
 #+latex: \setlength{\columnsep}{2pt}
 
+#+bind: org-export-latex-image-default-option "width=0.5\\linewidth"
