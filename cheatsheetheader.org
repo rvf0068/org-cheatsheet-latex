@@ -3,6 +3,7 @@
 
 #+latex_header: \usepackage{multicol}
 #+latex_header: \usepackage{enumitem}
+#+latex_header: \setlist[description]{style=nextline}
 #+latex_header: \usepackage[compact]{titlesec}
 #+latex_header: \usepackage[landscape,margin=1cm]{geometry}
 #+latex_header: 
